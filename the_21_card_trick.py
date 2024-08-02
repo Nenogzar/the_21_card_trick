@@ -1,5 +1,6 @@
+
 def initialize_deck():
-    return list(range(1, 22))
+   return list(range(1, 22))
 
 def display_piles(piles):
     for i in range(max(len(pile) for pile in piles)):
